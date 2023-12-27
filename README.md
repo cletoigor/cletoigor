@@ -4,26 +4,30 @@
 
 ## 💻 Tech Stack:
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Scala](https://img.shields.io/badge/scala-%23DC322F.svg?style=for-the-badge&logo=scala&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=flat-square&logo=apachespark&logoColor=black)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Python](https://a11ybadges.com/badge?logo=python)
+![Scala](https://a11ybadges.com/badge?logo=scala)
+![Apache Spark](https://a11ybadges.com/badge?logo=apachespark)
+![pandas](https://a11ybadges.com/badge?logo=pandas)
 
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![Databricks](https://a11ybadges.com/badge?logo=databricks)
+![Snowflake](https://a11ybadges.com/badge?logo=snowflake)
+![dbt](https://a11ybadges.com/badge?logo=dbt)
+![PostgreSQL](https://a11ybadges.com/badge?logo=postgresql)
+![Oracle](https://a11ybadges.com/badge?logo=oracle)
 
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Amazon AWS](https://a11ybadges.com/badge?logo=amazonaws)
+![Microsoft Azure](https://a11ybadges.com/badge?logo=microsoftazure)
+![Google Cloud](https://a11ybadges.com/badge?logo=googlecloud)
 
-![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=for-the-badge&logo=bitbucket&logoColor=white)
+![macOS](https://a11ybadges.com/badge?logo=macos)
+![Visual Studio Code](https://a11ybadges.com/badge?logo=visualstudiocode)
+![Flask](https://a11ybadges.com/badge?logo=flask)
+![Postman](https://a11ybadges.com/badge?logo=postman)
+
+![Trello](https://a11ybadges.com/badge?logo=trello)
+![Jira](https://a11ybadges.com/badge?logo=jira)
+![GitLab](https://a11ybadges.com/badge?logo=gitlab)
+![Bitbucket](https://a11ybadges.com/badge?logo=bitbucket)
 
 <br>
 
