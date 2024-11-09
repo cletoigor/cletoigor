@@ -1,7 +1,5 @@
 # Hi there 👋
 
-#### I'm Igor Cleto, a passionate data engineer and AI enthusiast. I currently work as a Senior Data Engineer at deX Labs.
-
 ## 💻 Tech Stack:
 
 ![Python](https://a11ybadges.com/badge?logo=python)
