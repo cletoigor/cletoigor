@@ -6,7 +6,7 @@ Data & AI Engineer. I like giving an LLM a cron job and letting it run my life �
 
 | Repo | What it does |
 |---|---|
-| **[pfc-ufmg-igor-cleto](https://github.com/cletoigor/pfc-ufmg-igor-cleto)** | My undergraduate thesis (TCC): a full IoT data platform for a real Tuya-connected smart home, with an AI agent that can query and (dry-run gated) control it. |
+| **[pfc-ufmg-igor-cleto](https://github.com/cletoigor/pfc-ufmg-igor-cleto)** | My undergraduate thesis (TCC): a full IoT data platform for a real Tuya-connected smart home, with an AI agent that can query and control it. |
 | **[barber-automation](https://github.com/cletoigor/barber-automation)** | Books my weekly haircut/beard trim automatically via the BestBarbers API — checks availability, picks the right slot, confirms. |
 | **[garmin-dashboard](https://github.com/cletoigor/garmin-dashboard)** | Pulls daily health/activity data from Garmin Connect on a cron and serves a live dashboard of sleep, training load, and recovery trends. |
 | **[nutri-dash](https://github.com/cletoigor/nutri-dash)** | Flexible-diet tracker where **Claude Code is the brain**: it parses my nutritionist's PDF plan, suggests meal substitutions that preserve macros (weighted least-squares against the TACO food table), and logs what I actually ate — the Flask app is just a read-only viewer. |
