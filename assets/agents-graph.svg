@@ -95,7 +95,7 @@
   <g class="node-bob d4">
     <circle cx="800" cy="745" r="66" fill="#161b2e" stroke="#22d3ee" stroke-width="3" filter="url(#glow)"/>
     <text x="800" y="758" text-anchor="middle" font-size="40">🏠</text>
-    <text x="800" y="838" text-anchor="middle" fill="#f3f4f6" font-size="19" font-weight="700">pfc-ufmg-igor-cleto</text>
+    <text x="800" y="838" text-anchor="middle" fill="#f3f4f6" font-size="19" font-weight="700">Home Automations</text>
     <text x="800" y="862" text-anchor="middle" fill="#9aa3b2" font-size="14">hourly · IoT pipeline + CUSUM,</text>
     <text x="800" y="880" text-anchor="middle" fill="#9aa3b2" font-size="14">dry-run gated home control (TCC)</text>
   </g>
