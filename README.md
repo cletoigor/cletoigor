@@ -1,25 +1,8 @@
-<div align="center">
+# Hi, I'm Igor 👋 🇧🇷
 
-# Igor Cleto
+Control & Automation Engineering student at UFMG. I like giving an LLM a cron job and letting it run my life — from booking a haircut to running an AI-agent-controlled smart home.
 
-## My Personal Agents
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Dagster](https://img.shields.io/badge/Dagster-6238FF?style=flat&logo=dagster&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=anthropic&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75FF?style=flat&logo=googlegemini&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)
-
-</div>
-
----
-
-One coordinator, six projects. [Claude Code](https://claude.com/claude-code) skills wired to local cron jobs each own one recurring chore — from booking a haircut to running the AI-agent-controlled smart home below.
-
-<img src="assets/agents-graph.svg" alt="An LLM agent as the hub orchestrating six personal projects, including the TCC home automation platform" width="100%"/>
+<img src="assets/agents-graph.svg" alt="Card: an LLM agent as the hub orchestrating six personal projects, including home automation"/>
 
 | Repo | What it does |
 |---|---|

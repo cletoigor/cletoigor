@@ -27,7 +27,7 @@
     </filter>
   </defs>
 
-  <rect width="1600" height="1180" fill="#e8eae9"/>
+  <rect width="1600" height="1180" rx="28" fill="#e8eae9"/>
 
   <!-- Title -->
   <text x="800" y="86" text-anchor="middle" fill="#525957" font-size="15" font-weight="600" letter-spacing="3">AUTOMATIONS</text>
