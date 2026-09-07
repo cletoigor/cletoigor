@@ -55,7 +55,7 @@
   <g class="node-bob d1">
     <circle cx="1130" cy="150" r="62" fill="#ffffff" stroke="#151717" stroke-width="2" filter="url(#soft)"/>
     <text x="1130" y="164" text-anchor="middle" font-size="32">✂️</text>
-    <text x="1130" y="227" text-anchor="middle" fill="#151717" font-size="18" font-weight="600">Barber Booking</text>
+    <text x="1130" y="219" text-anchor="middle" fill="#151717" font-size="18" font-weight="600">Barber Booking</text>
   </g>
 
   <!-- Node: Health Tracking (upper-right) -->
@@ -76,7 +76,7 @@
   <g class="node-bob d4">
     <circle cx="1130" cy="530" r="66" fill="#ffffff" stroke="#151717" stroke-width="2" filter="url(#soft)"/>
     <text x="1130" y="545" text-anchor="middle" font-size="34">🏠</text>
-    <text x="1130" y="617" text-anchor="middle" fill="#151717" font-size="18" font-weight="600">Home Automation</text>
+    <text x="1130" y="608" text-anchor="middle" fill="#151717" font-size="18" font-weight="600">Home Automation</text>
   </g>
 
   <!-- Node: Gym Reimbursement (lower-left) -->
