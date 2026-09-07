@@ -56,54 +56,48 @@
   <g class="node-bob d1">
     <circle cx="800" cy="270" r="65" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
     <text x="800" y="283" text-anchor="middle" font-size="36">✂️</text>
-    <text x="800" y="362" text-anchor="middle" fill="#151717" font-size="19" font-weight="600">barber-automation</text>
-    <text x="800" y="387" text-anchor="middle" fill="#6b706e" font-size="14" font-weight="400">weekly · books my haircut via</text>
-    <text x="800" y="405" text-anchor="middle" fill="#6b706e" font-size="14" font-weight="400">the BestBarbers API</text>
+    <text x="800" y="362" text-anchor="middle" fill="#151717" font-size="19" font-weight="600">Barber Booking</text>
+    <text x="800" y="387" text-anchor="middle" fill="#6b706e" font-size="14" font-weight="400">Books my weekly haircut automatically.</text>
   </g>
 
   <!-- Node: garmin-dashboard (upper-right) -->
   <g class="node-bob d2">
     <circle cx="1075" cy="490" r="65" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
     <text x="1075" y="503" text-anchor="middle" font-size="36">⌚</text>
-    <text x="1153" y="432" text-anchor="start" fill="#151717" font-size="19" font-weight="600">garmin-dashboard</text>
-    <text x="1153" y="456" text-anchor="start" fill="#6b706e" font-size="14" font-weight="400">daily · syncs Garmin Connect,</text>
-    <text x="1153" y="474" text-anchor="start" fill="#6b706e" font-size="14" font-weight="400">charts sleep &amp; training load</text>
+    <text x="1153" y="440" text-anchor="start" fill="#151717" font-size="19" font-weight="600">Health Tracking</text>
+    <text x="1153" y="464" text-anchor="start" fill="#6b706e" font-size="14" font-weight="400">Syncs my sleep and training data daily.</text>
   </g>
 
   <!-- Node: nutri-dash (lower-right) -->
   <g class="node-bob d3">
     <circle cx="1075" cy="685" r="65" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
     <text x="1075" y="698" text-anchor="middle" font-size="36">🥗</text>
-    <text x="1153" y="667" text-anchor="start" fill="#151717" font-size="19" font-weight="600">nutri-dash</text>
-    <text x="1153" y="691" text-anchor="start" fill="#6b706e" font-size="14" font-weight="400">chat-driven · substitutes meals</text>
-    <text x="1153" y="709" text-anchor="start" fill="#6b706e" font-size="14" font-weight="400">by macro, logs what I ate</text>
+    <text x="1153" y="675" text-anchor="start" fill="#151717" font-size="19" font-weight="600">Nutrition Coach</text>
+    <text x="1153" y="699" text-anchor="start" fill="#6b706e" font-size="14" font-weight="400">Suggests meal swaps, logs what I eat.</text>
   </g>
 
   <!-- Node: Home Automations / TCC (bottom) -->
   <g class="node-bob d4">
-    <circle cx="800" cy="810" r="70" fill="#151717" filter="url(#soft)"/>
+    <circle cx="800" cy="810" r="70" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
     <text x="800" y="824" text-anchor="middle" font-size="38">🏠</text>
-    <text x="800" y="906" text-anchor="middle" fill="#151717" font-size="19" font-weight="600">Home Automations</text>
-    <text x="800" y="930" text-anchor="middle" fill="#6b706e" font-size="14" font-weight="400">hourly · IoT pipeline + CUSUM,</text>
-    <text x="800" y="948" text-anchor="middle" fill="#6b706e" font-size="14" font-weight="400">dry-run gated home control (TCC)</text>
+    <text x="800" y="915" text-anchor="middle" fill="#151717" font-size="19" font-weight="600">Home Automation</text>
+    <text x="800" y="939" text-anchor="middle" fill="#6b706e" font-size="14" font-weight="400">Monitors and controls my smart home.</text>
   </g>
 
   <!-- Node: reembolso-academia (lower-left) -->
   <g class="node-bob d5">
     <circle cx="525" cy="685" r="65" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
     <text x="525" y="698" text-anchor="middle" font-size="36">🏋️</text>
-    <text x="447" y="667" text-anchor="end" fill="#151717" font-size="19" font-weight="600">reembolso-academia</text>
-    <text x="447" y="691" text-anchor="end" fill="#6b706e" font-size="14" font-weight="400">monthly · submits gym refund,</text>
-    <text x="447" y="709" text-anchor="end" fill="#6b706e" font-size="14" font-weight="400">notifies on Slack</text>
+    <text x="447" y="675" text-anchor="end" fill="#151717" font-size="19" font-weight="600">Gym Reimbursement</text>
+    <text x="447" y="699" text-anchor="end" fill="#6b706e" font-size="14" font-weight="400">Files my monthly gym refund.</text>
   </g>
 
   <!-- Node: senhor-contabil (upper-left) -->
   <g class="node-bob d6">
     <circle cx="525" cy="490" r="65" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
     <text x="525" y="503" text-anchor="middle" font-size="36">🧾</text>
-    <text x="447" y="432" text-anchor="end" fill="#151717" font-size="19" font-weight="600">senhor-contabil</text>
-    <text x="447" y="456" text-anchor="end" fill="#6b706e" font-size="14" font-weight="400">monthly · reconciles taxes,</text>
-    <text x="447" y="474" text-anchor="end" fill="#6b706e" font-size="14" font-weight="400">issues invoices &amp; payroll</text>
+    <text x="447" y="440" text-anchor="end" fill="#151717" font-size="19" font-weight="600">Accounting Assistant</text>
+    <text x="447" y="464" text-anchor="end" fill="#6b706e" font-size="14" font-weight="400">Handles my company's monthly taxes.</text>
   </g>
 
   <!-- bottom flow: pill chips -->
@@ -124,9 +118,9 @@
       <text x="812" y="1077" text-anchor="middle" fill="#6b706e" font-size="12" font-weight="400">books, fills, files, updates</text>
     </g>
     <g>
-      <rect x="970" y="1030" width="255" height="60" rx="30" fill="#151717" filter="url(#soft)"/>
-      <text x="1097" y="1057" text-anchor="middle" fill="#f5f6f5" font-size="15">✅ Confirms &amp; logs</text>
-      <text x="1097" y="1077" text-anchor="middle" fill="#c7cac8" font-size="12" font-weight="400">db write, dashboard update</text>
+      <rect x="970" y="1030" width="255" height="60" rx="30" fill="#ffffff" stroke="#151717" stroke-width="1.5"/>
+      <text x="1097" y="1057" text-anchor="middle" fill="#151717" font-size="15">✅ Confirms &amp; logs</text>
+      <text x="1097" y="1077" text-anchor="middle" fill="#6b706e" font-size="12" font-weight="400">db write, dashboard update</text>
     </g>
     <g>
       <rect x="1255" y="1030" width="225" height="60" rx="30" fill="#ffffff" stroke="#151717" stroke-width="1.5"/>
