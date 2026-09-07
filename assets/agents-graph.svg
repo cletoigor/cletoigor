@@ -1,10 +1,10 @@
-<svg width="1600" height="1180" viewBox="0 0 1600 1180" xmlns="http://www.w3.org/2000/svg" font-family="'Instrument Sans', Helvetica, Arial, sans-serif">
+<svg width="1800" height="600" viewBox="0 0 1800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Instrument Sans', Helvetica, Arial, sans-serif">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&amp;display=swap');
       text { font-family: 'Instrument Sans', Helvetica, Arial, sans-serif; }
-      .flow { stroke-dasharray: 6 9; animation: flow 1.8s linear infinite; }
-      @keyframes flow { to { stroke-dashoffset: -30; } }
+      .flow { stroke-dasharray: 5 8; animation: flow 1.8s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -26; } }
       .node-bob { animation: bob 4.2s ease-in-out infinite; }
       .node-bob.d2 { animation-delay: -0.7s; }
       .node-bob.d3 { animation-delay: -1.4s; }
@@ -13,130 +13,85 @@
       .node-bob.d6 { animation-delay: -3.5s; }
       @keyframes bob {
         0%, 100% { transform: translateY(0px); }
-        50%      { transform: translateY(-5px); }
+        50%      { transform: translateY(-4px); }
       }
-      .hub-breathe { animation: breathe 3.2s ease-in-out infinite; transform-origin: 800px 555px; }
+      .hub-breathe { animation: breathe 3.2s ease-in-out infinite; transform-origin: 1130px 300px; }
       @keyframes breathe {
         0%, 100% { transform: scale(1); }
         50%      { transform: scale(1.025); }
       }
-      .step-arrow { stroke-dasharray: 3 5; animation: flow 1.1s linear infinite; }
     </style>
-    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#151717" flood-opacity="0.14"/>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#151717" flood-opacity="0.14"/>
     </filter>
   </defs>
 
-  <rect width="1600" height="1180" rx="28" fill="#e8eae9"/>
+  <rect width="1800" height="600" rx="28" fill="#e8eae9"/>
 
-  <!-- Title -->
-  <text x="800" y="86" text-anchor="middle" fill="#525957" font-size="15" font-weight="600" letter-spacing="3">AUTOMATIONS</text>
-  <text x="800" y="150" text-anchor="middle" fill="#151717" font-size="60" font-weight="500" letter-spacing="-1.5">My personal agents.</text>
-  <text x="800" y="188" text-anchor="middle" fill="#525957" font-size="19" font-weight="400">An LLM agent reads context on a schedule and turns it into real-world action —</text>
-  <text x="800" y="212" text-anchor="middle" fill="#525957" font-size="19" font-weight="400">from a haircut to a house.</text>
+  <!-- Left: text -->
+  <text x="75" y="200" fill="#525957" font-size="14" font-weight="600" letter-spacing="2.5">DATA &amp; AI ENGINEER</text>
+  <text x="72" y="258" fill="#151717" font-size="52" font-weight="500" letter-spacing="-1.3">My personal</text>
+  <text x="72" y="316" fill="#151717" font-size="52" font-weight="500" letter-spacing="-1.3">agents.</text>
+  <text x="75" y="366" fill="#525957" font-size="17" font-weight="400">An LLM agent reads context on a schedule</text>
+  <text x="75" y="390" fill="#525957" font-size="17" font-weight="400">and turns it into real-world action —</text>
+  <text x="75" y="414" fill="#525957" font-size="17" font-weight="400">from a haircut to a house.</text>
 
-  <!-- connecting lines (hexagon, 60° apart) -->
-  <g stroke="#b6bab7" stroke-width="1.75" class="flow">
-    <line x1="800" y1="555" x2="800" y2="335"/>
-    <line x1="800" y1="555" x2="1075" y2="490"/>
-    <line x1="800" y1="555" x2="1075" y2="685"/>
-    <line x1="800" y1="555" x2="800" y2="810"/>
-    <line x1="800" y1="555" x2="525" y2="685"/>
-    <line x1="800" y1="555" x2="525" y2="490"/>
+  <!-- connecting lines (elliptical hexagon, 60° apart) -->
+  <g stroke="#b6bab7" stroke-width="1.5" class="flow">
+    <line x1="1130" y1="300" x2="1130" y2="140"/>
+    <line x1="1130" y1="300" x2="1320" y2="215"/>
+    <line x1="1130" y1="300" x2="1320" y2="385"/>
+    <line x1="1130" y1="300" x2="1130" y2="460"/>
+    <line x1="1130" y1="300" x2="940" y2="385"/>
+    <line x1="1130" y1="300" x2="940" y2="215"/>
   </g>
 
   <!-- hub -->
   <g class="hub-breathe">
-    <circle cx="800" cy="555" r="98" fill="#151717" filter="url(#soft)"/>
-    <text x="800" y="543" text-anchor="middle" font-size="42">🧠</text>
-    <text x="800" y="587" text-anchor="middle" fill="#f5f6f5" font-size="18" font-weight="600" letter-spacing="0.5">LLM AGENT</text>
+    <circle cx="1130" cy="300" r="62" fill="#151717" filter="url(#soft)"/>
+    <text x="1130" y="292" text-anchor="middle" font-size="28">🧠</text>
+    <text x="1130" y="320" text-anchor="middle" fill="#f5f6f5" font-size="13" font-weight="600" letter-spacing="0.3">LLM AGENT</text>
   </g>
 
-  <!-- Node: barber-automation (top) -->
+  <!-- Node: Barber Booking (top) -->
   <g class="node-bob d1">
-    <circle cx="800" cy="270" r="65" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
-    <text x="800" y="283" text-anchor="middle" font-size="36">✂️</text>
-    <text x="800" y="362" text-anchor="middle" fill="#151717" font-size="19" font-weight="600">Barber Booking</text>
-    <text x="800" y="387" text-anchor="middle" fill="#6b706e" font-size="14" font-weight="400">Books my weekly haircut automatically.</text>
+    <circle cx="1130" cy="140" r="42" fill="#ffffff" stroke="#151717" stroke-width="1.5" filter="url(#soft)"/>
+    <text x="1130" y="150" text-anchor="middle" font-size="24">✂️</text>
+    <text x="1130" y="195" text-anchor="middle" fill="#151717" font-size="14" font-weight="600">Barber Booking</text>
   </g>
 
-  <!-- Node: garmin-dashboard (upper-right) -->
+  <!-- Node: Health Tracking (upper-right) -->
   <g class="node-bob d2">
-    <circle cx="1075" cy="490" r="65" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
-    <text x="1075" y="503" text-anchor="middle" font-size="36">⌚</text>
-    <text x="1153" y="440" text-anchor="start" fill="#151717" font-size="19" font-weight="600">Health Tracking</text>
-    <text x="1153" y="464" text-anchor="start" fill="#6b706e" font-size="14" font-weight="400">Syncs my sleep and training data daily.</text>
+    <circle cx="1320" cy="215" r="42" fill="#ffffff" stroke="#151717" stroke-width="1.5" filter="url(#soft)"/>
+    <text x="1320" y="225" text-anchor="middle" font-size="24">⌚</text>
+    <text x="1370" y="200" text-anchor="start" fill="#151717" font-size="14" font-weight="600">Health Tracking</text>
   </g>
 
-  <!-- Node: nutri-dash (lower-right) -->
+  <!-- Node: Nutrition Coach (lower-right) -->
   <g class="node-bob d3">
-    <circle cx="1075" cy="685" r="65" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
-    <text x="1075" y="698" text-anchor="middle" font-size="36">🥗</text>
-    <text x="1153" y="675" text-anchor="start" fill="#151717" font-size="19" font-weight="600">Nutrition Coach</text>
-    <text x="1153" y="699" text-anchor="start" fill="#6b706e" font-size="14" font-weight="400">Suggests meal swaps, logs what I eat.</text>
+    <circle cx="1320" cy="385" r="42" fill="#ffffff" stroke="#151717" stroke-width="1.5" filter="url(#soft)"/>
+    <text x="1320" y="395" text-anchor="middle" font-size="24">🥗</text>
+    <text x="1370" y="410" text-anchor="start" fill="#151717" font-size="14" font-weight="600">Nutrition Coach</text>
   </g>
 
-  <!-- Node: Home Automations / TCC (bottom) -->
+  <!-- Node: Home Automation (bottom) -->
   <g class="node-bob d4">
-    <circle cx="800" cy="810" r="70" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
-    <text x="800" y="824" text-anchor="middle" font-size="38">🏠</text>
-    <text x="800" y="915" text-anchor="middle" fill="#151717" font-size="19" font-weight="600">Home Automation</text>
-    <text x="800" y="939" text-anchor="middle" fill="#6b706e" font-size="14" font-weight="400">Monitors and controls my smart home.</text>
+    <circle cx="1130" cy="460" r="45" fill="#ffffff" stroke="#151717" stroke-width="1.5" filter="url(#soft)"/>
+    <text x="1130" y="471" text-anchor="middle" font-size="25">🏠</text>
+    <text x="1130" y="525" text-anchor="middle" fill="#151717" font-size="14" font-weight="600">Home Automation</text>
   </g>
 
-  <!-- Node: reembolso-academia (lower-left) -->
+  <!-- Node: Gym Reimbursement (lower-left) -->
   <g class="node-bob d5">
-    <circle cx="525" cy="685" r="65" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
-    <text x="525" y="698" text-anchor="middle" font-size="36">🏋️</text>
-    <text x="447" y="675" text-anchor="end" fill="#151717" font-size="19" font-weight="600">Gym Reimbursement</text>
-    <text x="447" y="699" text-anchor="end" fill="#6b706e" font-size="14" font-weight="400">Files my monthly gym refund.</text>
+    <circle cx="940" cy="385" r="42" fill="#ffffff" stroke="#151717" stroke-width="1.5" filter="url(#soft)"/>
+    <text x="940" y="395" text-anchor="middle" font-size="24">🏋️</text>
+    <text x="890" y="410" text-anchor="end" fill="#151717" font-size="14" font-weight="600">Gym Reimbursement</text>
   </g>
 
-  <!-- Node: senhor-contabil (upper-left) -->
+  <!-- Node: Accounting Assistant (upper-left) -->
   <g class="node-bob d6">
-    <circle cx="525" cy="490" r="65" fill="#ffffff" stroke="#151717" stroke-width="1.75" filter="url(#soft)"/>
-    <text x="525" y="503" text-anchor="middle" font-size="36">🧾</text>
-    <text x="447" y="440" text-anchor="end" fill="#151717" font-size="19" font-weight="600">Accounting Assistant</text>
-    <text x="447" y="464" text-anchor="end" fill="#6b706e" font-size="14" font-weight="400">Handles my company's monthly taxes.</text>
+    <circle cx="940" cy="215" r="42" fill="#ffffff" stroke="#151717" stroke-width="1.5" filter="url(#soft)"/>
+    <text x="940" y="225" text-anchor="middle" font-size="24">🧾</text>
+    <text x="890" y="200" text-anchor="end" fill="#151717" font-size="14" font-weight="600">Accounting Assistant</text>
   </g>
-
-  <!-- bottom flow: pill chips -->
-  <g font-weight="600">
-    <g>
-      <rect x="115" y="1030" width="255" height="60" rx="30" fill="#ffffff" stroke="#151717" stroke-width="1.5"/>
-      <text x="242" y="1057" text-anchor="middle" fill="#151717" font-size="15">🕐 Skill triggers</text>
-      <text x="242" y="1077" text-anchor="middle" fill="#6b706e" font-size="12" font-weight="400">cron or chat request</text>
-    </g>
-    <g>
-      <rect x="400" y="1030" width="255" height="60" rx="30" fill="#ffffff" stroke="#151717" stroke-width="1.5"/>
-      <text x="527" y="1057" text-anchor="middle" fill="#151717" font-size="15">📖 Reads context</text>
-      <text x="527" y="1077" text-anchor="middle" fill="#6b706e" font-size="12" font-weight="400">plan PDFs, prior state, API</text>
-    </g>
-    <g>
-      <rect x="685" y="1030" width="255" height="60" rx="30" fill="#ffffff" stroke="#151717" stroke-width="1.5"/>
-      <text x="812" y="1057" text-anchor="middle" fill="#151717" font-size="15">⚙️ Executes</text>
-      <text x="812" y="1077" text-anchor="middle" fill="#6b706e" font-size="12" font-weight="400">books, fills, files, updates</text>
-    </g>
-    <g>
-      <rect x="970" y="1030" width="255" height="60" rx="30" fill="#ffffff" stroke="#151717" stroke-width="1.5"/>
-      <text x="1097" y="1057" text-anchor="middle" fill="#151717" font-size="15">✅ Confirms &amp; logs</text>
-      <text x="1097" y="1077" text-anchor="middle" fill="#6b706e" font-size="12" font-weight="400">db write, dashboard update</text>
-    </g>
-    <g>
-      <rect x="1255" y="1030" width="225" height="60" rx="30" fill="#ffffff" stroke="#151717" stroke-width="1.5"/>
-      <text x="1367" y="1057" text-anchor="middle" fill="#151717" font-size="15">🔔 Notifies</text>
-      <text x="1367" y="1077" text-anchor="middle" fill="#6b706e" font-size="12" font-weight="400">Slack, when relevant</text>
-    </g>
-  </g>
-  <g stroke="#8b908d" stroke-width="1.75" fill="none" marker-end="url(#arrow)" class="step-arrow">
-    <path d="M370 1060 L397 1060"/>
-    <path d="M655 1060 L682 1060"/>
-    <path d="M940 1060 L967 1060"/>
-    <path d="M1225 1060 L1252 1060"/>
-  </g>
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L6,3 L0,6 Z" fill="#8b908d"/>
-    </marker>
-  </defs>
 </svg>

@@ -1,6 +1,6 @@
 # Hi, I'm Igor 👋 🇧🇷
 
-Control & Automation Engineering student at UFMG. I like giving an LLM a cron job and letting it run my life — from booking a haircut to running an AI-agent-controlled smart home.
+Data & AI Engineer. I like giving an LLM a cron job and letting it run my life — from booking a haircut to running an AI-agent-controlled smart home.
 
 <img src="assets/agents-graph.svg" alt="Card: an LLM agent as the hub orchestrating six personal projects, including home automation"/>
 
