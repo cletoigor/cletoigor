@@ -1,6 +1,6 @@
 # Hi, I'm Igor 👋 🇧🇷
 
-Data & AI Engineer. I like giving an LLM a cron job and letting it run my life — from booking a haircut to running an AI-agent-controlled smart home.
+Data & AI Engineer. I like giving an LLM a cron job and letting it run my life — from booking a haircut to running an AI-agent-controlled smart home. I've also merged open-source contributions into [Dagster](https://github.com/dagster-io/dagster/pull/31460) and [Metabase's dataset-generator](https://github.com/metabase/dataset-generator/pull/15).
 
 <img src="assets/agents-graph.svg" alt="Card: an LLM agent as the hub orchestrating six personal projects, including home automation"/>
 
