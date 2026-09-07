@@ -1,0 +1,149 @@
+<svg width="1600" height="1060" viewBox="0 0 1600 1060" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#141a2e"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .flow { stroke-dasharray: 8 10; animation: flow 1.6s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -36; } }
+      .pulse-ring { animation: pulse 2.4s ease-out infinite; transform-origin: 800px 490px; }
+      @keyframes pulse {
+        0%   { r: 95; opacity: 0.5; }
+        70%  { r: 150; opacity: 0; }
+        100% { r: 150; opacity: 0; }
+      }
+      .hub-breathe { animation: breathe 3s ease-in-out infinite; transform-origin: 800px 490px; }
+      @keyframes breathe {
+        0%, 100% { transform: scale(1); }
+        50%      { transform: scale(1.03); }
+      }
+      .node-bob { animation: bob 4s ease-in-out infinite; }
+      .node-bob.d2 { animation-delay: -0.8s; }
+      .node-bob.d3 { animation-delay: -1.6s; }
+      .node-bob.d4 { animation-delay: -2.4s; }
+      .node-bob.d5 { animation-delay: -3.2s; }
+      @keyframes bob {
+        0%, 100% { transform: translateY(0px); }
+        50%      { transform: translateY(-6px); }
+      }
+      .step-arrow { stroke-dasharray: 4 6; animation: flow 1s linear infinite; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1060" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="800" y="90" text-anchor="middle" fill="#f3f4f6" font-size="52" font-weight="700" letter-spacing="2">MY PERSONAL AGENTS</text>
+  <text x="800" y="130" text-anchor="middle" fill="#8E9BFF" font-size="22" font-weight="600" letter-spacing="4">ONE ORCHESTRATOR · FIVE AUTOMATIONS</text>
+  <text x="800" y="162" text-anchor="middle" fill="#9aa3b2" font-size="18">An LLM agent reads context on a schedule and turns it into real-world action — no dashboards to babysit.</text>
+
+  <!-- connecting lines -->
+  <g stroke="#d97757" stroke-width="2.5" opacity="0.65" class="flow">
+    <line x1="800" y1="490" x2="800" y2="300"/>
+    <line x1="800" y1="490" x2="1104" y2="501"/>
+    <line x1="800" y1="490" x2="988" y2="799"/>
+    <line x1="800" y1="490" x2="612" y2="799"/>
+    <line x1="800" y1="490" x2="496" y2="501"/>
+  </g>
+
+  <!-- hub -->
+  <circle class="pulse-ring" cx="800" cy="490" r="95" fill="none" stroke="#d97757" stroke-width="3"/>
+  <g class="hub-breathe">
+    <circle cx="800" cy="490" r="95" fill="#161b2e" stroke="#d97757" stroke-width="3" filter="url(#glow)"/>
+    <text x="800" y="480" text-anchor="middle" font-size="46">🧠</text>
+    <text x="800" y="522" text-anchor="middle" fill="#f3f4f6" font-size="19" font-weight="700">LLM AGENT</text>
+  </g>
+
+  <!-- Node: barber-automation (top) -->
+  <g class="node-bob">
+    <circle cx="800" cy="240" r="62" fill="#161b2e" stroke="#60a5fa" stroke-width="2.5" filter="url(#glow)"/>
+    <text x="800" y="252" text-anchor="middle" font-size="38">✂️</text>
+    <text x="800" y="330" text-anchor="middle" fill="#f3f4f6" font-size="19" font-weight="700">barber-automation</text>
+    <text x="800" y="355" text-anchor="middle" fill="#9aa3b2" font-size="14">weekly · books my haircut via</text>
+    <text x="800" y="373" text-anchor="middle" fill="#9aa3b2" font-size="14">the BestBarbers API</text>
+  </g>
+
+  <!-- Node: garmin-dashboard (right-upper) -->
+  <g class="node-bob d2">
+    <circle cx="1104" cy="501" r="62" fill="#161b2e" stroke="#34d399" stroke-width="2.5" filter="url(#glow)"/>
+    <text x="1104" y="513" text-anchor="middle" font-size="38">⌚</text>
+    <text x="1180" y="441" text-anchor="start" fill="#f3f4f6" font-size="19" font-weight="700">garmin-dashboard</text>
+    <text x="1180" y="465" text-anchor="start" fill="#9aa3b2" font-size="14">daily · syncs Garmin Connect,</text>
+    <text x="1180" y="483" text-anchor="start" fill="#9aa3b2" font-size="14">charts sleep &amp; training load</text>
+  </g>
+
+  <!-- Node: nutri-dash (right-lower) -->
+  <g class="node-bob d3">
+    <circle cx="988" cy="799" r="62" fill="#161b2e" stroke="#facc15" stroke-width="2.5" filter="url(#glow)"/>
+    <text x="988" y="811" text-anchor="middle" font-size="38">🥗</text>
+    <text x="1064" y="780" text-anchor="start" fill="#f3f4f6" font-size="19" font-weight="700">nutri-dash</text>
+    <text x="1064" y="804" text-anchor="start" fill="#9aa3b2" font-size="14">chat-driven · substitutes meals</text>
+    <text x="1064" y="822" text-anchor="start" fill="#9aa3b2" font-size="14">by macro, logs what I ate</text>
+  </g>
+
+  <!-- Node: reembolso-academia (left-lower) -->
+  <g class="node-bob d4">
+    <circle cx="612" cy="799" r="62" fill="#161b2e" stroke="#f472b6" stroke-width="2.5" filter="url(#glow)"/>
+    <text x="612" y="811" text-anchor="middle" font-size="38">🏋️</text>
+    <text x="536" y="780" text-anchor="end" fill="#f3f4f6" font-size="19" font-weight="700">reembolso-academia</text>
+    <text x="536" y="804" text-anchor="end" fill="#9aa3b2" font-size="14">monthly · submits gym refund,</text>
+    <text x="536" y="822" text-anchor="end" fill="#9aa3b2" font-size="14">notifies on Slack</text>
+  </g>
+
+  <!-- Node: senhor-contabil (left-upper) -->
+  <g class="node-bob d5">
+    <circle cx="496" cy="501" r="62" fill="#161b2e" stroke="#a78bfa" stroke-width="2.5" filter="url(#glow)"/>
+    <text x="496" y="513" text-anchor="middle" font-size="38">🧾</text>
+    <text x="420" y="441" text-anchor="end" fill="#f3f4f6" font-size="19" font-weight="700">senhor-contabil</text>
+    <text x="420" y="465" text-anchor="end" fill="#9aa3b2" font-size="14">monthly · reconciles taxes,</text>
+    <text x="420" y="483" text-anchor="end" fill="#9aa3b2" font-size="14">issues invoices &amp; payroll</text>
+  </g>
+
+  <!-- bottom flow -->
+  <g font-size="15" font-weight="700" fill="#0a0e1a">
+    <g>
+      <rect x="120" y="940" width="255" height="64" rx="12" fill="#161b2e" stroke="#d97757" stroke-width="2"/>
+      <text x="247" y="968" text-anchor="middle" fill="#f3f4f6" font-size="16">🕐 Skill triggers</text>
+      <text x="247" y="990" text-anchor="middle" fill="#9aa3b2" font-size="13" font-weight="400">cron or chat request</text>
+    </g>
+    <g>
+      <rect x="405" y="940" width="255" height="64" rx="12" fill="#161b2e" stroke="#60a5fa" stroke-width="2"/>
+      <text x="532" y="968" text-anchor="middle" fill="#f3f4f6" font-size="16">📖 Reads context</text>
+      <text x="532" y="990" text-anchor="middle" fill="#9aa3b2" font-size="13" font-weight="400">plan PDFs, prior state, API</text>
+    </g>
+    <g>
+      <rect x="690" y="940" width="255" height="64" rx="12" fill="#161b2e" stroke="#34d399" stroke-width="2"/>
+      <text x="817" y="968" text-anchor="middle" fill="#f3f4f6" font-size="16">⚙️ Executes</text>
+      <text x="817" y="990" text-anchor="middle" fill="#9aa3b2" font-size="13" font-weight="400">books, fills, files, updates</text>
+    </g>
+    <g>
+      <rect x="975" y="940" width="255" height="64" rx="12" fill="#161b2e" stroke="#facc15" stroke-width="2"/>
+      <text x="1102" y="968" text-anchor="middle" fill="#f3f4f6" font-size="16">✅ Confirms &amp; logs</text>
+      <text x="1102" y="990" text-anchor="middle" fill="#9aa3b2" font-size="13" font-weight="400">db write, dashboard update</text>
+    </g>
+    <g>
+      <rect x="1260" y="940" width="220" height="64" rx="12" fill="#161b2e" stroke="#a78bfa" stroke-width="2"/>
+      <text x="1370" y="968" text-anchor="middle" fill="#f3f4f6" font-size="16">🔔 Notifies</text>
+      <text x="1370" y="990" text-anchor="middle" fill="#9aa3b2" font-size="13" font-weight="400">Slack, when relevant</text>
+    </g>
+  </g>
+  <g stroke="#4b5563" stroke-width="2" fill="none" marker-end="url(#arrow)" class="step-arrow">
+    <path d="M375 972 L400 972"/>
+    <path d="M660 972 L685 972"/>
+    <path d="M945 972 L970 972"/>
+    <path d="M1230 972 L1255 972"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4b5563"/>
+    </marker>
+  </defs>
+</svg>

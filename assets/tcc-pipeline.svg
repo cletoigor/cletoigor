@@ -1,0 +1,99 @@
+<svg width="1600" height="640" viewBox="0 0 1600 640" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#141a2e"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </radialGradient>
+    <filter id="glow2" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .flow2 { stroke-dasharray: 8 8; animation: flow2 1s linear infinite; }
+      @keyframes flow2 { to { stroke-dashoffset: -32; } }
+      .stage { animation: rise 3.5s ease-in-out infinite; }
+      .stage.d2 { animation-delay: -0.5s; }
+      .stage.d3 { animation-delay: -1s; }
+      .stage.d4 { animation-delay: -1.5s; }
+      .stage.d5 { animation-delay: -2s; }
+      @keyframes rise {
+        0%, 100% { transform: translateY(0px); }
+        50%      { transform: translateY(-5px); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="640" fill="url(#bg2)"/>
+
+  <text x="800" y="80" text-anchor="middle" fill="#f3f4f6" font-size="48" font-weight="700" letter-spacing="2">THE HOME AUTOMATION PIPELINE</text>
+  <text x="800" y="116" text-anchor="middle" fill="#8E9BFF" font-size="20" font-weight="600" letter-spacing="3">FROM RAW TELEMETRY TO AN AI AGENT THAT ACTS</text>
+
+  <!-- connecting arrows -->
+  <g stroke="#4b5563" stroke-width="2.5" fill="none" marker-end="url(#arrow2)" class="flow2">
+    <path d="M290 340 L340 340"/>
+    <path d="M610 340 L660 340"/>
+    <path d="M930 340 L980 340"/>
+    <path d="M1250 340 L1300 340"/>
+  </g>
+  <defs>
+    <marker id="arrow2" markerWidth="12" markerHeight="12" refX="7" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#4b5563"/>
+    </marker>
+  </defs>
+
+  <!-- Stage 1: Tuya -->
+  <g class="stage d1">
+    <rect x="80" y="240" width="210" height="200" rx="16" fill="#161b2e" stroke="#60a5fa" stroke-width="2.5" filter="url(#glow2)"/>
+    <text x="185" y="230" text-anchor="middle" fill="#60a5fa" font-size="15" font-weight="700" letter-spacing="1">01 · SOURCE</text>
+    <text x="185" y="315" text-anchor="middle" font-size="42">📡</text>
+    <text x="185" y="360" text-anchor="middle" fill="#f3f4f6" font-size="17" font-weight="700">Tuya Cloud API</text>
+    <text x="185" y="382" text-anchor="middle" fill="#9aa3b2" font-size="13">real smart-home devices</text>
+    <text x="185" y="400" text-anchor="middle" fill="#9aa3b2" font-size="13">power · voltage · current</text>
+  </g>
+
+  <!-- Stage 2: Dagster -->
+  <g class="stage d2">
+    <rect x="340" y="240" width="270" height="200" rx="16" fill="#161b2e" stroke="#34d399" stroke-width="2.5" filter="url(#glow2)"/>
+    <text x="475" y="230" text-anchor="middle" fill="#34d399" font-size="15" font-weight="700" letter-spacing="1">02 · ORCHESTRATE</text>
+    <text x="475" y="315" text-anchor="middle" font-size="42">🛠️</text>
+    <text x="475" y="360" text-anchor="middle" fill="#f3f4f6" font-size="17" font-weight="700">Dagster Pipeline</text>
+    <text x="475" y="382" text-anchor="middle" fill="#9aa3b2" font-size="13">hourly schedule</text>
+    <text x="475" y="400" text-anchor="middle" fill="#9aa3b2" font-size="13">raw → staging → gold assets</text>
+  </g>
+
+  <!-- Stage 3: DuckDB -->
+  <g class="stage d3">
+    <rect x="660" y="240" width="270" height="200" rx="16" fill="#161b2e" stroke="#facc15" stroke-width="2.5" filter="url(#glow2)"/>
+    <text x="795" y="230" text-anchor="middle" fill="#facc15" font-size="15" font-weight="700" letter-spacing="1">03 · STORE</text>
+    <text x="795" y="315" text-anchor="middle" font-size="42">🗄️</text>
+    <text x="795" y="360" text-anchor="middle" fill="#f3f4f6" font-size="17" font-weight="700">DuckDB Warehouse</text>
+    <text x="795" y="382" text-anchor="middle" fill="#9aa3b2" font-size="13">bronze / silver / gold</text>
+    <text x="795" y="400" text-anchor="middle" fill="#9aa3b2" font-size="13">schemas, single writer</text>
+  </g>
+
+  <!-- Stage 4: CUSUM + Agent -->
+  <g class="stage d4">
+    <rect x="980" y="240" width="270" height="200" rx="16" fill="#161b2e" stroke="#d97757" stroke-width="2.5" filter="url(#glow2)"/>
+    <text x="1115" y="230" text-anchor="middle" fill="#d97757" font-size="15" font-weight="700" letter-spacing="1">04 · UNDERSTAND</text>
+    <text x="1115" y="315" text-anchor="middle" font-size="42">📈</text>
+    <text x="1115" y="360" text-anchor="middle" fill="#f3f4f6" font-size="17" font-weight="700">CUSUM + AI Agent</text>
+    <text x="1115" y="382" text-anchor="middle" fill="#9aa3b2" font-size="13">anomaly detection</text>
+    <text x="1115" y="400" text-anchor="middle" fill="#9aa3b2" font-size="13">Gemini · SQL tool-calling</text>
+  </g>
+
+  <!-- Stage 5: Dashboard -->
+  <g class="stage d5">
+    <rect x="1300" y="240" width="220" height="200" rx="16" fill="#161b2e" stroke="#a78bfa" stroke-width="2.5" filter="url(#glow2)"/>
+    <text x="1410" y="230" text-anchor="middle" fill="#a78bfa" font-size="15" font-weight="700" letter-spacing="1">05 · ACT</text>
+    <text x="1410" y="315" text-anchor="middle" font-size="42">💬</text>
+    <text x="1410" y="360" text-anchor="middle" fill="#f3f4f6" font-size="17" font-weight="700">Web App + Chat</text>
+    <text x="1410" y="382" text-anchor="middle" fill="#9aa3b2" font-size="13">charts, alerts</text>
+    <text x="1410" y="400" text-anchor="middle" fill="#9aa3b2" font-size="13">dry-run gated device control</text>
+  </g>
+
+  <text x="800" y="510" text-anchor="middle" fill="#9aa3b2" font-size="16">The agent can query, explain, and act on the house — but it can never flip a switch for real</text>
+  <text x="800" y="536" text-anchor="middle" fill="#9aa3b2" font-size="16">without an explicit, human-set <tspan fill="#d97757" font-weight="700">dry_run=false</tspan>.</text>
+</svg>
