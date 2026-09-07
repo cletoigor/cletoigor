@@ -53,13 +53,3 @@ One coordinator, many small agents. [Claude Code](https://claude.com/claude-code
 | **[cron-dashboard](https://github.com/cletoigor/cron-dashboard)** | Minimal localhost dashboard to monitor every crontab job above — status, logs, next run time, and a run-now button. |
 | **[skills-dashboard](https://github.com/cletoigor/skills-dashboard)** | Launcher/monitor for the Claude Code skills that drive these agents. |
 
----
-
-<div align="center">
-
-### 📊 GitHub stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=cletoigor&show_icons=true&theme=default&hide_border=true&count_private=true" alt="Igor's GitHub stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cletoigor&layout=compact&theme=default&hide_border=true" alt="Top languages" height="165"/>
-
-</div>
