@@ -1,6 +1,6 @@
 # Hi, I'm Igor 👋 🇧🇷
 
-Data & AI Engineer. Here you can find more details about my personal projects and agents. I've also merged open-source contributions into [Dagster](https://github.com/dagster-io/dagster/pull/31460) and [Metabase's dataset-generator](https://github.com/metabase/dataset-generator/pull/15).
+Here you can find more details about my personal projects and agents. I've also merged open-source contributions into [Dagster](https://github.com/dagster-io/dagster/pull/31460) and [Metabase's dataset-generator](https://github.com/metabase/dataset-generator/pull/15).
 
 <img src="assets/agents-graph.svg" alt="Card: an LLM agent as the hub orchestrating six personal projects, including home automation"/>
 
